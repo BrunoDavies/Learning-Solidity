@@ -15,6 +15,15 @@ contract("Greeter", () => {
       assert.equal(actual, expected, "greeted with 'Hello, World!'");
     });
   });
+  
+  describe("owner()", () => {
+	  it("returns the address of the owner", async () => {
+	    const greeter = await GreeterContract.deployed();
+	    const owner = await greeter.owner;
+
+	    assert(owner, "the current owner");
+	  });
+  });
 });
 
 contract("Greeter: update greeting", () => {
