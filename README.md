@@ -6,6 +6,6 @@ A valid question, with mutiple differing projects it does not follow the best pr
 
 ## Current Projects
 
-- **Book**: [Hands-On Smart Contract Development with Solidity and Ethereum](https://learning.oreilly.com/library/view/hands-on-smart-contract/9781492045250/)
+- (Putting this on pause since the book is outdated causing issues) **Book**: [Hands-On Smart Contract Development with Solidity and Ethereum](https://learning.oreilly.com/library/view/hands-on-smart-contract/9781492045250/)
 	- [Greeter](https://github.com/BrunoDavies/Learning-Solidity/tree/master/greeter): A basic "Hello World!" smart contract wirtten in Solidity and tested using JavaScript. Following the example in Ch.4
 
